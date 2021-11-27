@@ -10,7 +10,7 @@ import PropTypes from "prop-types";
 //   stats={user.stats}
 // />
 
-const Profile = ({
+export const Profile = ({
   avatar,
   userName,
   tag,
@@ -55,5 +55,3 @@ Profile.propTypes = {
   views: PropTypes.number,
   likes: PropTypes.number,
 };
-
-export default Profile;

@@ -1,6 +1,5 @@
-import logo from "./logo.svg";
-import Profile from "./profile/Profile";
-import user from "./profile/user.json";
+import { Profile } from "./components/Profile";
+import user from "./components/Profile/user.json";
 import "./App.css";
 
 function App() {
