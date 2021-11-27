@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import s from "./Profile.module.scss";
 
 // import user from 'путь/к/user.json;
 
@@ -20,7 +21,7 @@ export const Profile = ({
   likes,
 }) => {
   return (
-    <div class="profile">
+    <div className={s.profile}>
       <div class="description">
         <img src={avatar} alt="User avatar" class="avatar" />
         <p class="name">{userName}</p>
