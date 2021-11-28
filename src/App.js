@@ -1,6 +1,8 @@
 import { Profile } from "./components/Profile";
 import { Statistics } from "./components/Statistics";
+import { FriendList } from "./components/FriendList";
 import user from "./components/Profile/user.json";
+import friends from "./components/FriendListItem/friends.json";
 import statsData from "./components/Statistics/stats-data.json";
 import "./App.css";
 
@@ -18,12 +20,9 @@ function App() {
         likes={user.stats.likes}
       />
       <Statistics title="Upload stats" stats={statsData} />
+      <FriendList friends={friends} />
     </div>
   );
 }
-
-// function randomeColour() {
-//   return Math.floor(Math.random() * 16777215).toString(16);
-// }
 
 export default App;
