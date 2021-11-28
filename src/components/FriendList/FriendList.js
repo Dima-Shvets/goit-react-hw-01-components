@@ -10,7 +10,7 @@ export function FriendList({ friends }) {
           key={friend.id.toString()}
           avatar={friend.avatar}
           name={friend.name}
-          isOnline={friends.isOnline}
+          isOnline={friend.isOnline}
         />
       ))}
     </ul>

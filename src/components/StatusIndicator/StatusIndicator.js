@@ -5,12 +5,13 @@ export const StatusIndicator = styled.span`
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: green;
+  background: red;
   overflow: hidden;
+
+  ${(props) =>
+    props.isOnline &&
+    css`
+      background: green;
+    `}
 `;
-//   ${props =>
-//     props.primary &&
-//     css`
-//       background: palevioletred;
-//       color: white;
-//     `}
+//
