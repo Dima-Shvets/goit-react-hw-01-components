@@ -1,4 +1,3 @@
-import React from "react";
 import { Profile } from "./components/Profile";
 import { Statistics } from "./components/Statistics";
 import user from "./components/Profile/user.json";
@@ -22,5 +21,9 @@ function App() {
     </div>
   );
 }
+
+// function randomeColour() {
+//   return Math.floor(Math.random() * 16777215).toString(16);
+// }
 
 export default App;
